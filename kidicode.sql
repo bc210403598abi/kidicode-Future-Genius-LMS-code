@@ -50,7 +50,7 @@ CREATE TABLE `courses` (
 --
 
 INSERT INTO `courses` (`id`, `fkteacherID`, `title`, `category`, `difficulty`, `price`, `duration_weeks`, `description`, `learning_objectives`, `thumbnail`, `intro_video`, `materials`, `scorm_enabled`, `status`, `created_at`) VALUES
-(1, 6, 'Advanced PHP & MySQL', 'programming', 'intermediate', '80.00', 8, 'Deep dive into PHP backend development with MySQL database integration.', 'Master PHP CRUD,Work with MySQL', '1767119733_logo.PNG', '1767119733_20250716_202833.mp4', '1767119733_report_1.pdf,,', 1, 'approved', '2025-12-30 18:35:33');
+(1, 6, 'Advanced PHP & MySQL', 'programming', 'intermediate', '80.00', 8, 'Deep dive into PHP backend development with MySQL database integration.', 'Master PHP CRUD,Work with MySQL', '1767423774_download.jpg', '1767423774_download.mp4', '17671197_report_1.pdf,,', 1, 'approved', '2025-12-30 18:35:33');
 
 -- --------------------------------------------------------
 
@@ -101,7 +101,7 @@ CREATE TABLE `lessons` (
 --
 
 INSERT INTO `lessons` (`id`, `fkcourseID`, `fkteacherID`, `title`, `lesson_type`, `description`, `video`, `content`, `attachments`, `duration_minutes`, `lessstatus`, `created_at`) VALUES
-(2, 1, 6, 'NILL', 'reading', 'NILL', '', 'OK', '1767124774_ABC.txt', 9, 'published', '2025-12-30 19:59:34');
+(2, 1, 6, 'NILL', 'reading', 'NILL', '', 'OK', '176714774_ABC.txt', 9, 'published', '2025-12-30 19:59:34');
 
 -- --------------------------------------------------------
 
@@ -272,10 +272,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `full_name`, `dob`, `email`, `phone`, `password`, `user_type`, `profile`, `terms_accepted`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'Junaid Malik', '2025-12-30', 'junaid@gmail.com', '03041659294', 'junaid', 'admin', '1767115426_logo.PNG', 0, 'active', '2025-12-30 17:23:46', '2025-12-30 17:24:08'),
-(5, 'Ali', '2025-12-30', 'ali@gmail.com', '03041659295', 'ali', 'student', '1767117239_logo.PNG', 0, 'active', '2025-12-30 17:53:59', '2025-12-30 17:56:07'),
-(6, 'Teacher', '2025-12-30', 'teacher@gmail.com', '03041659296', 'teacher', 'instructor', '1767117329_logo.PNG', 0, 'active', '2025-12-30 17:55:29', '2025-12-30 17:56:14'),
-(7, 'abc', '2025-12-31', 'abc@gmail.com', '03041659297', 'abc', 'parents', '1767136689_logo.PNG', 0, 'active', '2025-12-30 23:18:09', '2025-12-30 23:18:09');
+(1, 'Admin', '2025-12-30', 'admin@gmail.com', '03041659294', 'admin', 'admin', '1767423774_download.jpg', 0, 'active', '2025-12-30 17:23:46', '2025-12-30 17:24:08'),
+(5, 'Sudent', '2025-12-30', 'student@gmail.com', '03041659295', 'student', 'student', '1767423774_download.jpg', 0, 'active', '2025-12-30 17:53:59', '2025-12-30 17:56:07'),
+(6, 'Teacher', '2025-12-30', 'teacher@gmail.com', '03048987654', 'teacher', 'instructor', '1767423774_download.jpg', 0, 'active', '2025-12-30 17:55:29', '2025-12-30 17:56:14'),
+(7, 'Parent', '2025-12-31', 'parent@gmail.com', '03476787654', 'parent', 'parents', '11767423774_download.jpg', 0, 'active', '2025-12-30 23:18:09', '2025-12-30 23:18:09');
 
 --
 -- Indexes for dumped tables
