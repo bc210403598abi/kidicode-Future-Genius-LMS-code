@@ -14,25 +14,39 @@ This document explains how to set up and run the project locally using XAMPP.
 1.	**Copy Project Folder**
    
     o	Copy the complete project folder.
+  	
     o	Paste it inside:
-    o	XAMPP → htdocs
-3.	**Start XAMPP Server**
+
+  	 o	XAMPP → htdocs
+  	
+3.**Start XAMPP Server**
    
     o	Open XAMPP Control Panel
+    
     o	Start:
+    
     	Apache
+    
     	MySQL
-4.	**Import Database**
+    
+5.	**Import Database**
 
     o	Open browser and go to:
+  	
     o	http://localhost/phpmyadmin
+  	
     o	Create a database (if not already created).
+  	
     o	Import the database file:
+  	
     o	kidicode.sql
-5.	**Run the Project**
+  	
+7.	**Run the Project**
    
     o	Open your browser and type:
-    o	http://localhost/Final
+
+  	o	http://localhost/Final
+  	
     Note: Final is the project folder name.
 
 **Login Credentials**
