@@ -29,7 +29,9 @@ Requirements
 
 **Login Credentials**
 Use the following credentials to log in with different roles:
+
 **Admin**
+
     •	Email: admin@gmail.com
     •	Password: admin
 **Teacher**
